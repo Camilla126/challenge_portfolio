@@ -1,109 +1,227 @@
 /* Este repositório base foi criado para te ajudar caso você não saiba como começar. Lembre-se de que o portfólio é a sua carta de apresentação e você deve dar a sua cara. Por isso, convidamos você a personalizá-lo de acordo com o seu estilo e preferências; não se limite apenas ao layout proposto no Figma. */
 :root {
-    --cor-de-fundo: #F5F5F5;
-    --cor-de-fundo-menu: #ffffff;
-    --cor-do-link: #000000;
+  --cor-de-fundo: #f5f5f5;
+  --cor-de-fundo-menu: #ffffff;
+  --cor-do-link: #000000;
 }
 
 body {
-    background-color: var(--cor-de-fundo);
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    line-height: 1.6;
+  background-color: var(--cor-de-fundo);
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 1.6;
 }
 
-ol, ul, li {
-    list-style: none;
+ol,
+ul,
+li {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: var(--cor-do-link);
+  text-decoration: none;
+  color: var(--cor-do-link);
 }
 
 /* ------------------------------ Seção Menu -------------------------------*/
 .cabecalho {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    background-color: var(--cor-de-fundo-menu);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--cor-de-fundo-menu);
 }
 
 .cabecalho__logo {
-    max-width: 80px; /* Ajuste para telas pequenas */
+  width: 34px;
+  height: 24px;
+  gap: 8px;
+  opacity: 0px;
+
+  max-width: 80px; /* Ajuste para telas pequenas */
 }
 
 .cabecalho__titulo {
-    font-size: 1.2rem;
-    text-align: center;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
 .navegacao__lista {
-    display: none;
+  display: none;
 }
 
 .navegacao__elemento a {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 /* ------------------------------ Seção Apresentação ------------------------------*/
+.apresentacao {
+}
 
+.apresentacao__foto {
+}
+
+.apresentacao__conteiner {
+}
+
+.apresentacao__titulo {
+}
+
+.apresentacao__subtitulo {
+}
+
+.redes {
+}
+
+.redes__elemento {
+}
 
 /* ------------------------------ Seção Sobre mim ----------------------------------*/
+.sobre-mim {
+}
 
+.sobre-mim__titulo {
+}
+
+.sobre-mim__texto {
+}
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
+.habilidades {
+}
 
+.habilidades__titulo {
+}
+
+.habilidades__lista {
+}
+
+.habilidades__elemento {
+}
+
+.habilidades__icone {
+}
+
+.habilidades__nome {
+}
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
+.hobbies {
+}
 
+.hobbies__titulo {
+}
+
+.hobbies__lista {
+}
+
+.hobbies__elemento {
+}
+
+.hobbies__icone {
+}
+
+.hobbies__nome {
+}
+
+/*------------------------------Seção de Formação Acadêmica-----------------------*/
+
+.formacao {
+}
+
+.formacao__titulo {
+}
+
+.formacao__lista {
+}
+
+.formacao__elemento {
+}
+
+.formacao__icone {
+}
+
+.formacao__nome {
+}
+
+.formacao__detalhe {
+}
 
 /*------------------------------ Seção de Projetos --------------------------------*/
+.projetos {
+}
 
+.projetos__titulo {
+}
+
+.projetos__conteiner {
+}
+
+.projetos__nome {
+}
+
+.projetos__descricao {
+}
 
 /*------------------------------ Seção de Contato ---------------------------------*/
 
+.contato {
+}
+
+.contato__titulo {
+}
+
+.contato__formulario {
+}
+
+.contato__campo {
+}
+
+.contato__campo--textarea {
+}
+
+.contato__botao {
+}
 
 /* ------------------------------ Responsividade ---------------------------------------*/
 
 /* Tablets e telas maiores */
 @media (min-width: 768px) {
-    .cabecalho {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .cabecalho__logo {
-        max-width: 100px;
-    }
+  .cabecalho__logo {
+    max-width: 100px;
+  }
 
-    .cabecalho__titulo {
-        font-size: 1.5rem;
-    }
+  .cabecalho__titulo {
+    font-size: 1.5rem;
+  }
 
-    .navegacao__lista {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        margin-top: 0;
-    }
+  .navegacao__lista {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0;
+  }
 
-    .navegacao__elemento a {
-        font-size: 1rem;
-    }
+  .navegacao__elemento a {
+    font-size: 1rem;
+  }
 }
 
 /* Telas grandes */
 @media (min-width: 1024px) {
-    /* Aqui você pode ajustar ainda mais o design para telas grandes */
-    .cabecalho__titulo {
-        font-size: 1.8rem;
-    }
+  /* Aqui você pode ajustar ainda mais o design para telas grandes */
+  .cabecalho__titulo {
+    font-size: 1.8rem;
+  }
 
-    .navegacao__elemento a {
-        font-size: 1.1rem;
-    }
+  .navegacao__elemento a {
+    font-size: 1.1rem;
+  }
 }
