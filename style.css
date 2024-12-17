@@ -31,90 +31,89 @@ a {
   top: 32px;
   bottom: 32px;
   background-color: var(--cor-de-fundo-menu);
-height: 88px;
-padding: 32px 0px 32px 0px;
-justify-content: space-between;
-opacity: 0px;
-
+  height: 88px;
+  padding: 32px 0px 32px 0px;
+  justify-content: space-between;
+  opacity: 0px;
 }
 
 .cabecalho__logo {
   width: 24px;
   height: 24px;
- display: block;
-margin-left: 290px;
+  display: block;
+  margin-left: 290px;
   max-width: 80px; /* Ajuste para telas pequenas */
 }
 
 .cabecalho__titulo {
-  
   text-align: center;
-  
-font-size: 16px;
-font-weight: 700;
-line-height: 18.78px;
-margin-right: 430px;
 
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+  margin-right: 430px;
 }
 
 .navegacao__lista {
-  
   width: 642px;
   height: 19px;
   opacity: 0px;
   display: none;
-
 }
 
 .navegacao__elemento a {
   font-size: 0.9rem;
 }
 /* ------------------------------ Seção Apresentação ------------------------------*/
-.apresentacao{
+.apresentacao {
   display: flex;
   align-items: center;
   justify-content: center;
-
-width:1,136px;
-height:368px;
-
-
+  width: 1,136px;
+  height: 368px;
 }
 
-.apresentacao__conteiner{
- 
-  width: 750px;
- height: 246px; 
+.apresentacao__conteiner {
+  width: 751px;
+  height: 246px;
   display: flex;
   flex-direction: column;
   align-items: start;
-gap: 24px;
-opacity: 0px;
-
-
+  opacity: 0px;
 }
-.apresentacao__titulo{
-opacity: 0px;
-font-size: 52px;
-font-weight: 700;
-line-height: 61.05px;
+.apresentacao__titulo {
+  opacity: 0px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 61.05px;
 }
-.apresentacao__subtitulo{
-
+.apresentacao__subtitulo {
   font-size: 22px;
   font-weight: 400;
   line-height: 25.83px;
-
-  
 }
 
-.apresentacao__foto{
+.apresentacao__foto {
   width: 368px;
   height: 368px;
 }
 
-.redes{
+.redes {
+  
   display: flex;
+gap: 32px;
+opacity: 0px;
+padding-left: 0;
+
+}
+
+.redes__elemento {
+
+gap: 4px;
+opacity: 0px;
+
+
+
 }
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
