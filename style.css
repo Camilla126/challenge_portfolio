@@ -147,7 +147,7 @@ height: 133px;
   margin-left: 280px;
 font-size: 16px;
 font-weight: 400;
-line-height: 18.78px;
+line-height: 18.78]px;
 
 
 }
@@ -198,10 +198,10 @@ margin-right: 10px;
 
 
 .habilidades__nome {
-  font-family: Raleway;
+;
   font-size: 16px;
   font-weight: 700;
-  line-height: 18.78px;
+  line-height: 0px;
  
   
 
@@ -221,7 +221,7 @@ margin-top: 160px;
 .hobbies__titulo {
   font-size: 32px;
 font-weight: 700;
-line-height: 37.57px;
+line-height: 0px;
 margin-top: 60px;
 
 }
@@ -252,31 +252,70 @@ margin-top: 60px;
   font-family: Raleway;
   font-size: 16px;
   font-weight: 700;
-  line-height: 18.78px;
+  line-height: 0px;
  
 }
 
 /*------------------------------Seção de Formação Acadêmica-----------------------*/
 
 .formacao {
+  width: 1,440px;
+height: 581px;
+padding: 82px 0px 0px 0px;
+gap: 32px;
+background-color: #EAF2FD;
+margin-top: 200px;
+
 }
 
 .formacao__titulo {
+
+font-size: 32px;
+font-weight: 700;
+line-height: 37.57px;
+text-align: center;
+
+
 }
 
 .formacao__lista {
+  width: 368px;
+height: 347px;
+background-color: rgb(255, 255, 255);
+margin-left: 640px;
 }
 
 .formacao__elemento {
+  padding: 16px 0px 0px 0px;
+  display: block;
+margin-left: 70px;
+
+  
 }
 
 .formacao__icone {
+  width: 200px;
+  height: 200px;
+  display:block;
+margin-top: 60px;
 }
 
 .formacao__nome {
+font-size: 22px;
+font-weight: 700;
+line-height: 25.83px;
+margin-top: 100px;
+
+
 }
 
 .formacao__detalhe {
+
+font-size: 16px;
+font-weight: 500;
+line-height: 0px;
+
+
 }
 
 /*------------------------------ Seção de Projetos --------------------------------*/
