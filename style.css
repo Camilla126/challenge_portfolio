@@ -165,43 +165,95 @@ flex-direction: column;
 }
 
 .habilidades__titulo {
-  font-family: Raleway;
+
 font-size: 32px;
 font-weight: 700;
 line-height: 37.57px;
+margin-top: 60px;
 
 }
 
 .habilidades__lista {
-  
+  width: 1,136px;
+height:174px;
 }
 
+
 .habilidades__elemento {
+  width:176px;
+height: 174px;
+padding: 16px;
+gap: 8px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+background-color: white;
+margin-right: 10px;
 }
 
 .habilidades__icone {
+ margin-top: 100PX;
+
 }
 
+
 .habilidades__nome {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+ 
+  
+
 }
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
 .hobbies {
+  width:1,136px;
+  height:244px;
+  gap: 32px;
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 160px;
 }
 
 .hobbies__titulo {
+  font-size: 32px;
+font-weight: 700;
+line-height: 37.57px;
+margin-top: 60px;
+
 }
 
 .hobbies__lista {
+  width: 1,136px;
+  height:174px;
+
 }
 
 .hobbies__elemento {
+  width:176px;
+  height: 174px;
+  padding: 16px;
+  gap: 8px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-right: 10px;
 }
 
 .hobbies__icone {
+  margin-top: 100PX;
 }
 
 .hobbies__nome {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+ 
 }
 
 /*------------------------------Seção de Formação Acadêmica-----------------------*/
