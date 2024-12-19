@@ -54,15 +54,11 @@ a {
 }
 
 .navegacao__lista {
-  
-  width:642px;
+  width: 642px;
   height: 19px;
   gap: 32px;
   display: block;
   padding: 0;
- 
-  
- 
 }
 
 .navegacao__elemento a {
@@ -73,7 +69,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1,136px;
+  width: 1, 136px;
   height: 368px;
 }
 
@@ -103,137 +99,114 @@ a {
 }
 
 .redes {
-  
-display: flex;
-gap: 32px;
-opacity: 0px;
-padding-left: 0;
-
+  display: flex;
+  gap: 32px;
+  opacity: 0px;
+  padding-left: 0;
 }
 
 .redes__elemento {
-gap: 4px;
-opacity: 0px;
-
+  gap: 4px;
+  opacity: 0px;
 }
 
 /*------------------------------ Seção sobre mim ------------------------------*/
-.sobre-mim{
-  width:1,440px;
+.sobre-mim {
+  width: 1, 440px;
   height: 383px;
   padding: 64px 0px 0px 0px;
   gap: 10px;
   opacity: 0px;
-  background-color: #EAF2FD;
-margin-top: 200px;
-
-
-
+  background-color: #eaf2fd;
+  margin-top: 200px;
 }
 
-.sobre-mim__titulo{
-display: block;
-font-size: 32px;
-font-weight: 700;
-line-height: 37.57px;
-margin-left: 280px;
-
-
-}
-
-.sobre-mim__texto{
-  width: 751px;
-height: 133px;
+.sobre-mim__titulo {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
   margin-left: 280px;
-font-size: 16px;
-font-weight: 400;
-line-height: 18.78px;
+}
 
-
+.sobre-mim__texto {
+  width: 751px;
+  height: 133px;
+  margin-left: 280px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
 }
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
 .habilidades {
-  width:1,136px;
-  height:244px;
+  width: 1, 136px;
+  height: 244px;
   gap: 32px;
-display: flex;
-align-items: center;
-flex-direction: column;
-  
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .habilidades__titulo {
-
-font-size: 32px;
-font-weight: 700;
-line-height: 37.57px;
-margin-top: 60px;
-
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  margin-top: 60px;
 }
 
 .habilidades__lista {
-  width: 1,136px;
-height:174px;
+  width: 1, 136px;
+  height: 174px;
 }
 
-
 .habilidades__elemento {
-  width:176px;
-height: 174px;
-padding: 16px;
-gap: 8px;
-display: inline-block;
-justify-content: center;
-align-items: center;
-background-color: white;
-margin-right: 10px;
+  width: 176px;
+  height: 174px;
+  padding: 16px;
+  gap: 8px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-right: 10px;
 }
 
 .habilidades__icone {
- margin-top: 100PX;
-
+  margin-top: 100px;
 }
 
-
 .habilidades__nome {
-
   font-size: 16px;
   font-weight: 700;
   line-height: 0px;
- 
-  
-
 }
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
 .hobbies {
-  width:1,136px;
-  height:244px;
+  width: 1, 136px;
+  height: 244px;
   gap: 32px;
-display: flex;
-align-items: center;
-flex-direction: column;
-margin-top: 160px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
 }
 
 .hobbies__titulo {
   font-size: 32px;
-font-weight: 700;
-line-height: 0px;
-margin-top: 60px;
-
+  font-weight: 700;
+  line-height: 0px;
+  margin-top: 60px;
 }
 
 .hobbies__lista {
-  width: 1,136px;
-  height:174px;
-
+  width: 1, 136px;
+  height: 174px;
 }
 
 .hobbies__elemento {
-  width:176px;
+  width: 176px;
   height: 174px;
   padding: 16px;
   gap: 8px;
@@ -245,7 +218,7 @@ margin-top: 60px;
 }
 
 .hobbies__icone {
-  margin-top: 100PX;
+  margin-top: 100px;
 }
 
 .hobbies__nome {
@@ -253,131 +226,141 @@ margin-top: 60px;
   font-size: 16px;
   font-weight: 700;
   line-height: 0px;
- 
 }
 
 /*------------------------------Seção de Formação Acadêmica-----------------------*/
 
 .formacao {
-  width: 1,440px;
-height: 581px;
-padding: 82px 0px 0px 0px;
-gap: 32px;
-background-color: #EAF2FD;
-margin-top: 200px;
-
+  width: 1, 440px;
+  height: 581px;
+  padding: 82px 0px 0px 0px;
+  gap: 32px;
+  background-color: #eaf2fd;
+  margin-top: 200px;
 }
 
 .formacao__titulo {
-
-font-size: 32px;
-font-weight: 700;
-line-height: 37.57px;
-text-align: center;
-
-
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
 }
 
 .formacao__lista {
   width: 368px;
-height: 347px;
-background-color: rgb(255, 255, 255);
-margin-left: 640px;
+  height: 347px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 640px;
 }
 
 .formacao__elemento {
   padding: 16px 0px 0px 0px;
   display: block;
-margin-left: 70px;
-
-  
+  margin-left: 70px;
 }
 
 .formacao__icone {
   width: 200px;
   height: 200px;
-  display:block;
-margin-top: 60px;
+  display: block;
+  margin-top: 60px;
 }
 
 .formacao__nome {
-font-size: 22px;
-font-weight: 700;
-line-height: 25.83px;
-margin-top: 100px;
-
-
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  margin-top: 100px;
 }
 
 .formacao__detalhe {
-
-font-size: 16px;
-font-weight: 500;
-line-height: 0px;
-
-
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0px;
 }
 
 /*------------------------------ Seção de Projetos --------------------------------*/
-.projetos {
-
-
-
-}
 
 .projetos__titulo {
-
   font-size: 32px;
   font-weight: 700;
   line-height: 37.57px;
   text-align: center;
- 
 }
-.projetos__img{
+.projetos__img {
   width: 752px;
-height: 406px;
-margin-left: 290px;
-
+  height: 406px;
+  margin-left: 290px;
 }
 
 .projetos__conteiner {
-
+  width: 1, 136px;
+  height: 406px;
+  gap: 16px;
+  opacity: 0px;
 }
 
 .projetos__nome {
-font-size: 22px;
-font-weight: 700;
-line-height: 25.83px;
-text-align: left;
-display:inline;
-position:absolute;
-margin-top: 150px;
-margin-left: 30px;
-
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  text-align: left;
+  display: inline;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 30px;
 }
 
 .projetos__descricao {
-
-font-size: 16px;
-font-weight: 500;
-line-height: 18.78px;
-text-align: left;
-display:inline;
-position:absolute;
-margin-top: 190px;
-margin-left: 30px;
-
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  display: inline;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 30px;
 }
 
 /*------------------------------ Seção de Contato ---------------------------------*/
 
 .contato {
+  background-color: #eaf2fd;
+  width: 1, 440px;
+  height: 788px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.contato__img {
+  width: 464px;
+  height: 593px;
+  margin-left: 290px;
 }
 
 .contato__titulo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  position: relative;
+  top: 120px;
+  left: 770px;
+
+}
+
+.contato__text {
+  width: 656px;
+height: 38px;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.78px;
+position: relative;
+top: 110px;
+left: 770px;
 }
 
 .contato__formulario {
+  width: 1, 136px;
+  height: 660px;
 }
 
 .contato__campo {
