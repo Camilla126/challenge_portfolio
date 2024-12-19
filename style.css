@@ -147,7 +147,7 @@ height: 133px;
   margin-left: 280px;
 font-size: 16px;
 font-weight: 400;
-line-height: 18.78]px;
+line-height: 18.78px;
 
 
 }
@@ -198,7 +198,7 @@ margin-right: 10px;
 
 
 .habilidades__nome {
-;
+
   font-size: 16px;
   font-weight: 700;
   line-height: 0px;
@@ -320,6 +320,7 @@ line-height: 0px;
 
 /*------------------------------ Seção de Projetos --------------------------------*/
 .projetos {
+
 }
 
 .projetos__titulo {
