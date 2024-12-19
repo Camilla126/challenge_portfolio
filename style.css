@@ -321,18 +321,52 @@ line-height: 0px;
 /*------------------------------ Seção de Projetos --------------------------------*/
 .projetos {
 
+
+
 }
 
 .projetos__titulo {
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
+ 
+}
+.projetos__img{
+  width: 752px;
+height: 406px;
+margin-left: 290px;
+
 }
 
 .projetos__conteiner {
+
 }
 
 .projetos__nome {
+font-size: 22px;
+font-weight: 700;
+line-height: 25.83px;
+text-align: left;
+display:inline;
+position:absolute;
+margin-top: 150px;
+margin-left: 30px;
+
 }
 
 .projetos__descricao {
+
+font-size: 16px;
+font-weight: 500;
+line-height: 18.78px;
+text-align: left;
+display:inline;
+position:absolute;
+margin-top: 190px;
+margin-left: 30px;
+
 }
 
 /*------------------------------ Seção de Contato ---------------------------------*/
