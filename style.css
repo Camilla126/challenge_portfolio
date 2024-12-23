@@ -3,6 +3,7 @@
   --cor-de-fundo-menu: #ffffff;
   --cor-do-link: #000000;
 }
+
 body {
   background-color: var(--cor-de-fundo);
   font-family: "Raleway", sans-serif;
@@ -10,6 +11,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   line-height: 1.6;
+ 
+
 }
 
 ol,
@@ -25,6 +28,7 @@ a {
 
 /* ------------------------------ Seção Menu -------------------------------*/
 .cabecalho {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -287,6 +291,8 @@ a {
   font-weight: 700;
   line-height: 37.57px;
   text-align: center;
+ 
+  
 }
 .projetos__img {
   width: 752px;
@@ -298,7 +304,7 @@ a {
   width: 1, 136px;
   height: 406px;
   gap: 16px;
-  opacity: 0px;
+
 }
 
 .projetos__nome {
@@ -316,26 +322,33 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 18.78px;
-  display: inline;
-  position: absolute;
-  margin-top: 190px;
-  margin-left: 30px;
+  position: relative;
+  bottom: 250px;
+  left: 1072px;
 }
 
 /*------------------------------ Seção de Contato ---------------------------------*/
 
 .contato {
   background-color: #eaf2fd;
-  width: 1, 440px;
+  width: 1,440px;
   height: 788px;
-  gap: 10px;
-  opacity: 0px;
+
+ 
+}
+
+.contato__formulario{
+  width: 1,136px;
+height:66px;
+
+
 }
 
 .contato__img {
   width: 464px;
   height: 593px;
   margin-left: 290px;
+
 }
 
 .contato__titulo {
@@ -343,7 +356,7 @@ a {
   font-weight: 700;
   line-height: 37.57px;
   position: relative;
- margin-left: 770px;
+ left: 770px;
 top: 120px;
 }
 
@@ -354,30 +367,28 @@ font-size: 16px;
 font-weight: 500;
 line-height: 18.78px;
 position: relative;
-margin-left: 770px;
+left: 770px;
 top: 110px;
 
-}
-
-.contato__formulario {
 
 }
-
 .contato__campo {
+  display: flex;
  position: relative;
- display: flex;
-margin-top: 30px;
-margin-left: 770px;
-bottom: 520px;
+left: 770px;
+bottom: 490px;
 width:656px;
 height: 30px;
 border-radius: 4px;
 border: none;
 padding: 11px;
 font-size: 16px;
+margin-bottom: 30px;
+
+
 }
 .contato__campo::placeholder{
-font-size: 16px;
+font-size: 12px;
 font-weight: 400;
 line-height: 40px;
 color: #A2A2A2;
@@ -388,7 +399,7 @@ bottom: 15px;
 .contato__campo--textarea {
  width: 656px;
  height: 133px;
-
+resize: none;
 }
 
 .contato__botao {
@@ -407,7 +418,11 @@ text-align: center;
 border: none;
 color: #FFFFFF;
 cursor: pointer;
+
 }
+
+
+
 
 /* ------------------------------ Responsividade ---------------------------------------*/
 
