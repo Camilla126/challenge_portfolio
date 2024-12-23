@@ -271,6 +271,7 @@ a {
   font-weight: 700;
   line-height: 25.83px;
   margin-top: 100px;
+
 }
 
 .formacao__detalhe {
@@ -342,9 +343,8 @@ a {
   font-weight: 700;
   line-height: 37.57px;
   position: relative;
-  top: 120px;
-  left: 770px;
-
+ margin-left: 770px;
+top: 120px;
 }
 
 .contato__text {
@@ -354,22 +354,57 @@ font-size: 16px;
 font-weight: 500;
 line-height: 18.78px;
 position: relative;
+margin-left: 770px;
 top: 110px;
-left: 770px;
+
 }
 
 .contato__formulario {
-  width: 1, 136px;
-  height: 660px;
+
 }
 
 .contato__campo {
+ position: relative;
+ display: flex;
+margin-top: 30px;
+margin-left: 770px;
+bottom: 520px;
+width:656px;
+height: 56px;
+border-radius: 4px;
+border: none;
+}
+.contato__campo::placeholder{
+padding: 10px;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+color: #A2A2A2;
+position: relative;
+bottom: 13px;
 }
 
 .contato__campo--textarea {
+ width: 656px;
+ height: 133px;
+
 }
 
 .contato__botao {
+
+position: relative;
+left: 770px;
+bottom: 490px;
+width:165px;
+height: 51px;
+opacity: 0px;
+background-color: #2A7AE4;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.78px;
+text-align: center;
+border: none;
+
 }
 
 /* ------------------------------ Responsividade ---------------------------------------*/
